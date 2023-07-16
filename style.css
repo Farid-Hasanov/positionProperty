@@ -10,12 +10,21 @@ a:hover {
   color: black;
 }
 
-#demo .minibox {
-  border: 1px solid red;
-  width: 100px;
-  height: 100px;
-  transition: 3s;
+#demo .box {
+  position: relative;
 }
-#demo .minibox:hover {
-  width: 350px;
+#demo .box p {
+  width: 500px;
+}
+#demo .box .minibox {
+  width: 150px;
+  height: 150px;
+  background-color: #c990af;
+  margin: 10px;
+  padding: 10px;
+  color: white;
+}
+#demo .box .change {
+  position: fixed;
+  right: 0px;
 }/*# sourceMappingURL=style.css.map */
