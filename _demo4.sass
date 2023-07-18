@@ -1,0 +1,30 @@
+#demo4
+    padding: 50px 0
+    .box
+        display: flex
+        .minibox
+            border: 5px solid #363636
+            width: 190px
+            height: 190px
+            transition: 3s
+            margin-right: 20px
+            &:hover
+                border: 3px solid #430046
+                width: 100px
+                height: 150px
+
+            @media screen and ( max-width: 600px  )
+                border: 2px solid #161513
+                width: 75px
+                height: 100px
+                background-color: #ff0e0e
+                color: #ffffff
+            
+            @media screen and ( max-width: 400px  )
+                border: 9px solid #c8a45d
+                width: 120px
+                height: 150px
+                background-color: #25544b86
+                color: #ffffff
+
+            

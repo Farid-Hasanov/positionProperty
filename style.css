@@ -10,21 +10,122 @@ a:hover {
   color: black;
 }
 
-#demo .box {
-  position: relative;
+#demo .minibox {
+  border: 2px solid #6b9dfa;
+  width: 140px;
+  height: 140px;
+  transition: 3s;
 }
-#demo .box p {
-  width: 500px;
+#demo .minibox:hover {
+  border: 4px solid #001646;
+  width: 200px;
+  height: 50px;
 }
-#demo .box .minibox {
-  width: 150px;
+@media screen and (max-width: 600px) {
+  #demo .minibox {
+    border: 2px solid #ae5f26;
+    width: 100px;
+    height: 100px;
+    background-color: #59356f;
+  }
+}
+@media screen and (max-width: 400px) {
+  #demo .minibox {
+    border: 3px solid #90ae26;
+    width: 50px;
+    height: 50px;
+    background-color: #743030;
+  }
+}
+
+#demo2 {
+  padding: 80px 0;
+}
+#demo2 .minibox {
+  border: 2px solid #000000;
+  width: 70px;
+  height: 70px;
+  transition: 3s;
+}
+#demo2 .minibox:hover {
+  border: 8px solid #4dffac;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+@media screen and (max-width: 600px) {
+  #demo2 .minibox {
+    border: 5px solid #9f2c5e;
+    width: 150px;
+    height: 150px;
+    background-color: #28d4f3;
+  }
+}
+@media screen and (max-width: 600px) {
+  #demo2 .minibox {
+    border: 7px solid #a49b34;
+    width: 200px;
+    height: 200px;
+    background-color: #ffb1cd;
+  }
+}
+
+#demo3 .btn {
+  font-size: 20px;
+  padding: 10px 40px;
+  color: #ffffff;
+  background-color: #d00f0f;
+}
+@media screen and (max-width: 600px) {
+  #demo3 .btn {
+    font-size: 20px;
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: #45ae08;
+  }
+}
+@media screen and (max-width: 400px) {
+  #demo3 .btn {
+    font-size: 20px;
+    padding: 10px 40px;
+    color: #ffffff;
+    background-color: #6a0656;
+  }
+}
+
+#demo4 {
+  padding: 50px 0;
+}
+#demo4 .box {
+  display: flex;
+}
+#demo4 .box .minibox {
+  border: 5px solid #363636;
+  width: 190px;
+  height: 190px;
+  transition: 3s;
+  margin-right: 20px;
+}
+#demo4 .box .minibox:hover {
+  border: 3px solid #430046;
+  width: 100px;
   height: 150px;
-  background-color: #c990af;
-  margin: 10px;
-  padding: 10px;
-  color: white;
 }
-#demo .box .change {
-  position: fixed;
-  right: 0px;
+@media screen and (max-width: 600px) {
+  #demo4 .box .minibox {
+    border: 2px solid #161513;
+    width: 75px;
+    height: 100px;
+    background-color: #ff0e0e;
+    color: #ffffff;
+  }
+}
+@media screen and (max-width: 400px) {
+  #demo4 .box .minibox {
+    border: 9px solid #c8a45d;
+    width: 120px;
+    height: 150px;
+    background-color: rgba(37, 84, 75, 0.5254901961);
+    color: #ffffff;
+  }
 }/*# sourceMappingURL=style.css.map */
